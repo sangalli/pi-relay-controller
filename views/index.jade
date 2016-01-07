@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  each device in devices
+    div(id="device_" + device.id)
+      p #{device.name}
+        .status
+        if (device.active)
+          p Ligado
+          button(onclick="toggleDevice(" + device.id + ")") Desligar
+        else
+          p Desligado
+          button(onclick="toggleDevice(" + device.id + ")") Ligar
