@@ -9,11 +9,11 @@ The application provides a RESTFul API to display the available devices (for ins
 It also provides a very simple webpage to do the same controls you can do through the API. 
 
 API URLs:
- - http://<pi_address>:8080/api/devices - See all the devices amd theirs current status 
- - http://<pi_address>:8080/api/devices/:device_id - Toggle a device
+ - http://your_pi_address:8080/api/devices - See all the devices amd theirs current status 
+ - http://your_pi_address:8080/api/devices/:device_id - Toggle a device
 
 Web Application URL:
  - http://<pi_address>:8080/
  
- This project is being tested with Raspberry Pi Model A, but it should work fine with Model B.
+This project is being tested with Raspberry Pi Model A, but it should work fine with Model B.
  
